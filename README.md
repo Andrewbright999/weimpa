@@ -24,20 +24,21 @@ pytest
 
 ## 📁 Структура
 📁 weimpa/
-├── .gitignore
-├── gitmanual.md              # 📝 Инструкция по работе с git
-├── requirements.txt          # 📦 Зависимости проекта
-├── main.py                   # 🚀 Точка входа в приложение
+├── .gitignore                     # 🙈 Игнорируемые файлы
+├── gitmanual.md                  # 📝 Инструкция по работе с git
+├── requirements.txt              # 📦 Зависимости проекта
+├── main.py                       # 🚀 Точка входа в приложение
 │
-├── config.py                 # ⚙️ Конфигурации
-├── db.py                     # 🗄️ Подключение к базе данных
-├── data_manager.py           # 📊 Работа с данными
-├── google_sheets.py          # 📄 Интеграция с Google Sheets
-├── vector_search.py          # 🔍 Поиск по векторам
-├── openai_module.py          # 🤖 Взаимодействие с OpenAI
+├── config.py                     # ⚙️ Конфигурации
+├── db.py                         # 🗄️ Подключение к базе данных
+├── data_manager.py               # 📊 Работа с данными
+├── google_sheets.py              # 📄 Интеграция с Google Sheets
+├── vector_search.py              # 🔍 Поиск по векторам
+├── openai_module.py              # 🤖 Взаимодействие с OpenAI
 │
-├── communicator_router.py    # 📡 Роутинг: коммуникатор
-└── manager_router.py         # 🧭 Роутинг: менеджер
+├── communicator_router.py        # 📡 Роутинг: коммуникатор
+└── manager_router.py             # 🧭 Роутинг: менеджер
+
 
 
 ## 🔐 Переменные окружения
